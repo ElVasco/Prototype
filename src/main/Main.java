@@ -8,6 +8,7 @@ public class Main {
 		Jugador d2 = gp.obtenerJugador("delantero");
 		Jugador cp1 = gp.obtenerJugador("centrocampista");
 		
+		d2.pasarBalon();
 		d1.pasarBalon();
 		cp1.tirarAPuerta();
 	}
